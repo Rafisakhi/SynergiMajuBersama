@@ -98,6 +98,8 @@ input[name="r"] {
     margin-left: -40%;
 }
 
+
+
 .container-2 {
     margin-top: 200px;
 }
@@ -120,7 +122,7 @@ input[name="r"] {
 }
 
 .imageT img {
-    width: 80em;
+    width: 100%;
 }
 
 .text-T {
@@ -175,6 +177,7 @@ input[name="r"] {
     width: 350px;
     height: 270px;
     padding: 20px;
+    border-radius: 20px;
     background-color: rgb(241, 135, 22);
 }
 
@@ -208,6 +211,7 @@ input[name="r"] {
     width: 350px;
     height: 270px;
     padding: 20px;
+    border-radius: 20px;
     background-color: rgb(241, 135, 22);
 }
 
@@ -241,6 +245,7 @@ input[name="r"] {
     width: 350px;
     height: 270px;
     padding: 20px;
+    border-radius: 20px;
     background-color: rgb(241, 135, 22);
 }
 
@@ -286,7 +291,8 @@ input[name="r"] {
 .Produk-img {
     margin-top: 70px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+
 }
 
 .safeteyy-1 {
@@ -295,7 +301,8 @@ input[name="r"] {
 }
 
 .safety-1 {
-    margin: 30px;
+    width: 150px;
+    height: 150px;
 }
 
 .safety-1 img {
@@ -313,7 +320,8 @@ input[name="r"] {
 .Produk-img2 {
     margin-top: 70px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+
 }
 
 .safeteyy-2 {
@@ -322,7 +330,8 @@ input[name="r"] {
 }
 
 .safety-2 {
-    margin: 30px;
+    width: 150px;
+    height: 150px;
 }
 
 .safety-2 img {
@@ -340,7 +349,8 @@ input[name="r"] {
 .Produk-img3 {
     margin-top: 70px;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+
 }
 
 .safeteyy-3 {
@@ -349,7 +359,8 @@ input[name="r"] {
 }
 
 .safety-3 {
-    margin: 35px;
+    width: 150px;
+    height: 150px;
 }
 
 .safety-3 img {
@@ -367,7 +378,8 @@ input[name="r"] {
 .Produk-img4 {
     margin-top: 70px;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+
 }
 
 .safeteyy-4 {
@@ -376,7 +388,8 @@ input[name="r"] {
 }
 
 .safety-4 {
-    margin: 30px;
+    width: 150px;
+    height: 150px;
 }
 
 .safety-4 img {
@@ -394,7 +407,8 @@ input[name="r"] {
 .Produk-img5 {
     margin-top: 70px;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+
 }
 
 .safeteyy-5 {
@@ -403,7 +417,8 @@ input[name="r"] {
 }
 
 .safety-5 {
-    margin: 30px;
+    width: 150px;
+    height: 150px;
 }
 
 .safety-5 img {
@@ -421,7 +436,8 @@ input[name="r"] {
 .Produk-img6 {
     margin-top: 70px;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+
 }
 
 .safeteyy-6 {
@@ -430,7 +446,8 @@ input[name="r"] {
 }
 
 .safety-6 {
-    margin: 30px;
+    width: 150px;
+    height: 150px;
 }
 
 .safety-6 img {
@@ -474,7 +491,7 @@ input[name="r"] {
 
 
 .container-7 {
-    background-color: #6c0cc7;
+    background-color: #F18716;
 }
 
 .container-foot {
@@ -559,4 +576,23 @@ input[name="r"] {
     font-weight: 500;
     font-size: 20px;
     color: #fff;
+}
+
+
+
+@media (min-width: 1200px) {
+    .imageT img {
+        width: 100%;
+    }
+
+    /* .Produk-img {
+        margin-top: 70px;
+        display: flex;
+        gap: 32px;
+    }
+    .Produk-img1 {
+        margin-top: 70px;
+        display: flex;
+        gap: 32px;
+    } */
 }
