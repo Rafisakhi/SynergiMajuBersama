@@ -5,38 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="Asset/title.png" type="image/icon type" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <title>Synergi Maju Bersama</title>
   </head>
   <body>
-    <nav>
-      <img src="Asset/logo.png" alt="" />
-    </nav>
-    <div class="container">
-      <div class="slides">
-        <input type="radio" name="r" id="r1" checked />
-        <input type="radio" name="r" id="r2" />
-        <input type="radio" name="r" id="r3" />
-        <div class="slide s1">
-          <img src="Asset/home1.png" alt="" />
-        </div>
-        <div class="slide">
-          <img src="Asset/home2.png" alt="" />
-        </div>
-        <div class="slide">
-          <img src="Asset/home3.png" alt="" />
+    <header>
+      <a href="#" class="logo">
+        <img src="Asset/logo.png" alt="" />
+      </a>
+    </header>
+
+    <div class="slider">
+      <input type="radio" name="slider" checked="checked" />
+      <div class="imgBx">
+        <img src="Asset/home1.png" alt="" />
+        <div class="content">
+          <h2 class="home1">
+            Synergi Maju UtamaSupplier Dan Distributor Peralatan Safety dan
+            Manufacture Equipment Terbaik Di Jabodetabek
+          </h2>
         </div>
       </div>
-      <div class="navigation">
-        <label for="r1" class="bar"></label>
-        <label for="r2" class="bar"></label>
-        <label for="r3" class="bar"></label>
+      <input type="radio" name="slider" />
+      <div class="imgBx">
+        <img src="Asset/home2.png" alt="" />
+        <div class="content">
+          <h2>
+            Seluruh Produk kami sudah sesuai dengan standar
+            <span class="bold">SNI</span> dan
+            <span class="bold">Internasional Safety Regulation</span>. <br />
+            produk - produk synergi maju utama khususnya Berada di bidang safety
+            atau alat pelindung diri (apd), antara lain safety helmet, body
+            harness perlengkapanbaju safety atau wearpack safety lainnya
+          </h2>
+        </div>
       </div>
-      <div class="text">
-        <h1>
-          Synergi Maju UtamaSupplier Dan Distributor Peralatan Safety dan
-          Manufacture Equipment Terbaik Di Jabodetabek
-        </h1>
+      <input type="radio" name="slider" />
+      <div class="imgBx">
+        <img src="Asset/home3.png" alt="" />
+        <div class="content">
+          <h2>
+            Synergi maju utama adalah supplier dan distributor peralatan safety
+            terlengkap dan juga salah satu yang paling terjangkau di pasaran.
+            Sehingga kamiadalah pilihan terbaik untuk memenuhi kebutuhan
+            peralatan safety anda
+          </h2>
+        </div>
       </div>
     </div>
     <div class="container-2">
@@ -416,16 +439,6 @@
       </div>
     </footer>
 
-    <script type="text/javascript">
-      let counter = 1;
-      setInterval(function () {
-        document.getElementById("r" + counter).checked = true;
-        counter++;
-        if (counter > 3) {
-          counter = 1;
-        }
-      }, 6000);
-      Es;
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
