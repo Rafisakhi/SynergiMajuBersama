@@ -92,7 +92,7 @@ header .logo img {
 
 .slider .imgBx .content .home1 {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 43px;
 }
 
 .slider .imgBx .content p {
@@ -135,7 +135,8 @@ header .logo img {
 .text-about h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 300;
+    line-height: 55px;
 
 }
 
@@ -617,12 +618,12 @@ header .logo img {
 
 @media (max-width: 600px) {
     header {
-        padding: 20px 0px;
+        padding: 10px 10px;
     }
 
     header .logo img {
-        width: 170px;
-        height: 70px;
+        width: 120px;
+        height: 40px;
         object-fit: fill
     }
 
@@ -630,9 +631,14 @@ header .logo img {
         padding: 20px;
     }
 
+    .slider {
+        width: 100%;
+        min-height: 60vh;
+    }
+
     .slider .imgBx .content h2 {
-        font-size: 19px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 27px;
     }
 
     .slider .imgBx .content .home1 {
@@ -670,7 +676,7 @@ header .logo img {
     .text-about h2 {
         font-size: 8px;
         font-weight: 500;
-
+        line-height: 20px;
     }
 
     .imageT img {
