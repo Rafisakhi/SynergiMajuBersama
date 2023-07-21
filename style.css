@@ -933,7 +933,7 @@ header .logo img {
 
 }
 
-@media (max-width:1200px) and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .Produk-img {
         margin-top: 70px;
         display: flex;
@@ -949,7 +949,7 @@ header .logo img {
     .container-3 .text-T {
         position: absolute;
         margin-top: 60px;
-        top: 60em;
+        top: 100em;
         color: #000;
     }
 
