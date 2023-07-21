@@ -605,6 +605,7 @@ header .logo img {
 
     .container-3 .text-T {
         position: absolute;
+        margin-top: 30px;
         top: 42em;
     }
 
