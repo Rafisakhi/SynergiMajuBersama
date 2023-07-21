@@ -933,7 +933,7 @@ header .logo img {
 
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
     .Produk-img {
         margin-top: 70px;
         display: flex;
