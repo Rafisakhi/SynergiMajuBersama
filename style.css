@@ -605,8 +605,8 @@ header .logo img {
 
     .container-3 .text-T {
         position: absolute;
-        margin-top: 40px;
-        top: 42em;
+        margin-top: 60px;
+        top: 40em;
     }
 
     .container-3 .text-T h1 {
@@ -711,7 +711,7 @@ header .logo img {
         margin-right: 0;
         font-weight: 600;
         color: #F18716;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .Produk-img {
