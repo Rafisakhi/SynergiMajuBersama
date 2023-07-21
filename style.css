@@ -941,6 +941,20 @@ header .logo img {
         flex-wrap: wrap;
     }
 
+    .Produk-img2 {
+        margin-top: 70px;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+
+    .Produk-img3 {
+        margin-top: 70px;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+
     .container-3 {
         width: 100%;
         height: auto;
@@ -949,7 +963,7 @@ header .logo img {
     .container-3 .text-T {
         position: absolute;
         margin-top: 60px;
-        top: 110em;
+        top: 115em;
         color: #000;
     }
 
