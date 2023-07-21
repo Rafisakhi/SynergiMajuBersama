@@ -467,7 +467,7 @@ header .logo img {
 .foot-img img {
     width: 20px;
     height: 20px;
-    margin-top: 5px;
+    margin-top: 7px;
     object-fit: fill;
 }
 
@@ -476,6 +476,8 @@ header .logo img {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
+    margin-top: 7px;
+
 }
 
 .foot-img a {
