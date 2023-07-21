@@ -526,24 +526,6 @@ header .logo img {
 
 
 
-@media (min-width: 1200px) {
-    .imageT img {
-        width: 100%;
-    }
-
-    /* .Produk-img {
-        margin-top: 70px;
-        display: flex;
-        gap: 32px;
-    }
-    .Produk-img1 {
-        margin-top: 70px;
-        display: flex;
-        gap: 32px;
-    } */
-}
-
-
 @media (max-width: 576px) {
     header {
         padding: 10px 10px;
@@ -947,6 +929,17 @@ header .logo img {
         font-weight: 500;
         font-size: 15px;
         color: #fff;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .Produk-img {
+        margin-top: 70px;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+
     }
 
 }
