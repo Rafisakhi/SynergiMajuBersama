@@ -605,7 +605,7 @@ header .logo img {
 
     .container-3 .text-T {
         position: absolute;
-        top: 40em;
+        top: 42em;
     }
 
     .container-3 .text-T h1 {
@@ -892,7 +892,7 @@ header .logo img {
 
     .foot-img h5 {
         font-family: 'Poppins', sans-serif;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
         color: #fff;
     }
