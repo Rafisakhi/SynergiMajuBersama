@@ -317,7 +317,7 @@ header .logo img {
 .Produk-img {
     margin-top: 70px;
     display: flex;
-    gap: 60px;
+    gap: 50px;
     flex-wrap: wrap;
 
 }
@@ -347,7 +347,7 @@ header .logo img {
 .Produk-img2 {
     margin-top: 70px;
     display: flex;
-    gap: 60px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -376,7 +376,7 @@ header .logo img {
 .Produk-img3 {
     margin-top: 70px;
     display: flex;
-    gap: 60px;
+    gap: 50px;
     flex-wrap: wrap;
 
 }
