@@ -605,7 +605,7 @@ header .logo img {
 
     .container-3 .text-T {
         position: absolute;
-        margin-top: 30px;
+        margin-top: 35px;
         top: 42em;
     }
 
@@ -881,7 +881,7 @@ header .logo img {
     .foot-img {
         display: flex;
         margin-top: 20px;
-        width: 50vh;
+        width: 20em;
         gap: 15px;
     }
 
