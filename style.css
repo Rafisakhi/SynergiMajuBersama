@@ -933,12 +933,17 @@ header .logo img {
 
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
     .Produk-img {
         margin-top: 70px;
         display: flex;
         gap: 60px;
         flex-wrap: wrap;
+    }
+
+    .container-3 {
+        width: 100%;
+        height: auto;
     }
 
     .container-3 .text-T {
