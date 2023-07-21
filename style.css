@@ -917,7 +917,6 @@ header .logo img {
     .foot-imgp {
         display: flex;
         margin-top: 20px;
-        width: 101vh;
         gap: 20px;
     }
 
