@@ -526,7 +526,7 @@ header .logo img {
 
 
 
-@media (max-width: 576px) {
+@media(max-width: 576px) {
     header {
         padding: 10px 10px;
     }
@@ -933,8 +933,7 @@ header .logo img {
 
 }
 
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     header {
         padding: 30px 20px;
     }
@@ -1333,6 +1332,11 @@ header .logo img {
 
 
 }
+
+
+
+
+
 
 @media (min-width: 1200px) {
     .Produk-img {
