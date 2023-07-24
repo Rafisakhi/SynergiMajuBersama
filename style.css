@@ -554,8 +554,8 @@ header .logo img {
     }
 
     .slider .imgBx .content .home1 {
-        font-size: 18px;
-        line-height: 40px;
+        font-size: 14px;
+        line-height: 30px;
     }
 
     .slider .imgBx .content p {
@@ -587,9 +587,9 @@ header .logo img {
 
 
     .text-about h2 {
-        font-size: 8px;
+        font-size: 7px;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 15px;
     }
 
 
@@ -1388,12 +1388,17 @@ header .logo img {
     }
 
     .slider .imgBx .content h2 {
-        font-size: 27px;
+        font-size: 30px;
         line-height: 35px;
     }
 
     .slider .imgBx .content .home1 {
-        font-size: 27px;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .slider .imgBx .content .home3 {
+        font-size: 35px;
         line-height: 50px;
     }
 
@@ -1446,7 +1451,7 @@ header .logo img {
 
     .text-T h1 {
         font-weight: 500;
-        font-size: 35px;
+        font-size: 41px;
         text-align: center;
         color: #fff;
     }
