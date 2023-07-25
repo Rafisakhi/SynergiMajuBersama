@@ -862,6 +862,10 @@ header .logo img {
         cursor: pointer;
     }
 
+    .container-7 {
+        background: linear-gradient(to bottom right, #EF8616, #4B2A06);
+    }
+
     .container-foot {
         display: flex;
         flex-wrap: wrap;
@@ -1277,6 +1281,10 @@ header .logo img {
         cursor: pointer;
     }
 
+    .container-7 {
+        background: linear-gradient(to bottom right, #EF8616, #4B2A06);
+    }
+
     .container-foot {
         display: flex;
     }
@@ -1679,6 +1687,10 @@ header .logo img {
         height: 65px;
         object-fit: fill;
         cursor: pointer;
+    }
+
+    .container-7 {
+        background: linear-gradient(to bottom right, #EF8616, #4B2A06);
     }
 
     .container-foot {
